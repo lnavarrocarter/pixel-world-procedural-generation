@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Procedural Terrain</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            background: #438a46;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+        }
+    </style>
+    <script src="perlin.js"></script>
+</head>
+
+<body>
+    <canvas id="c"></canvas>
+    <script src="terrain.js"></script>
+    <script>
+        const world = new WorldGenerator();
+        world.generateNewMap();
+
+        console.log(world)
+    </script>
+</body>
+
+</html>

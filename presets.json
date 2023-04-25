@@ -1,0 +1,73 @@
+{
+    "preset": "Dense Land",
+    "closed": false,
+    "remembered": {
+        "Dense Land": {
+            "0": {
+                "seed": "AAAAA",
+                "terrainHeight": 8,
+                "waterLevel": 1,
+                "colourPalette": "green",
+                "treesRendered": true,
+                "treeProbability": 0.05,
+                "treeColour": "#4b8c3e"
+            }
+        },
+        "Islands": {
+            "0": {
+                "seed": "AAAAA",
+                "terrainHeight": 10.753767993226079,
+                "waterLevel": 10.992209991532599,
+                "colourPalette": "green",
+                "treesRendered": true,
+                "treeProbability": 0.05,
+                "treeColour": "#4b8c3e"
+            }
+        },
+        "Snow": {
+            "0": {
+                "seed": "AAAAA",
+                "terrainHeight": 3.362066045723963,
+                "waterLevel": 2.050635055038103,
+                "colourPalette": "snow",
+                "treesRendered": true,
+                "treeProbability": 0.05,
+                "treeColour": "#d2d9e3"
+            }
+        },
+        "Ocean": {
+            "0": {
+                "seed": "AAAAA",
+                "terrainHeight": 1,
+                "waterLevel": 6.700254022015242,
+                "colourPalette": "green",
+                "treesRendered": true,
+                "treeProbability": 0.05,
+                "treeColour": "#4b8c3e"
+            }
+        },
+        "Ocean Sandbanks": {
+            "0": {
+                "seed": "BBBBB",
+                "terrainHeight": 4.435055038103302,
+                "waterLevel": 8.25012701100762,
+                "colourPalette": "green",
+                "treesRendered": false,
+                "treeProbability": 0.05,
+                "treeColour": "#4b8c3e"
+            }
+        },
+        "Dense Forest": {
+            "0": {
+                "seed": "CCCCC",
+                "terrainHeight": 2.5275190516511428,
+                "waterLevel": 1,
+                "colourPalette": "green",
+                "treesRendered": true,
+                "treeProbability": 0.15,
+                "treeColour": "#4b8c3e"
+            }
+        }
+    },
+    "folders": {}
+}
