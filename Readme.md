@@ -5,4 +5,4 @@ This is a project to procedurally generate a pixel world. It is a work in progre
 #### How to run 
 
 1. Clone the repository 
-2. 
+2. Execute `docker-compose up -d`

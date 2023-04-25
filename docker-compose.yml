@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+
+  dozzle:
+    container_name: dozzle
+    image: amir20/dozzle:latest
+    volumes:
+      - /Users/nacho/.docker/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 9001:8080
+
+      
+  host:
+    image: nginx:latest
+    container_name: nginx
+    restart: always
+    ports:
+      - 8001:80
+    volumes:
+      - ./:/usr/share/nginx/html
