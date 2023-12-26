@@ -9,7 +9,6 @@ services:
     ports:
       - 9001:8080
 
-      
   host:
     image: nginx:latest
     container_name: nginx
